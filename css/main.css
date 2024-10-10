@@ -85,17 +85,27 @@ border-color:#22a655;
     
 }
 
-.hero a {
-    color: white;
-    background-color: #53acbd;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
+.hero-content .btn-primary {
+    background-color: #22a655;
+    
 }
 
-.hero a:hover {
-    background-color: #2a7b8b;
+.hero-content .btn-primary:hover {
+    background-color: #1b8c4b;
+    
 }
+
+.hero-content .btn-secondary {
+    background-color: #22a65555;
+    
+   
+}
+
+.hero-content .btn-secondary:hover {
+    background-color: #1b8c4b;
+   
+}
+
 
 @media (min-width: 992px) {
     .mobile-number {
